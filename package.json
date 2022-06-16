@@ -14,7 +14,8 @@
   "scripts": {
     "dev": "parcel ./index.html",
     "build": "parcel build ./index.html",
-    "start": "ts-node server.ts"
+    "start": "ts-node server.ts",
+    "start:server": "ts-node server.ts"
   },
   "dependencies": {
     "@babel/preset-env": "^7.18.2",

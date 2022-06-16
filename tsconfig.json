@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "lib": [
+            "DOM",
+            "ES2022"
+        ],
+        "allowSyntheticDefaultImports": true,
+    },
+    "include": [
+        "src",
+        "index.ts",
+        "server.ts"
+    ]
+}

@@ -25,7 +25,7 @@ app.get("/api", (req, res) => {
     res.json(state)
 })
 
-const listener = app.listen(4040, "0.0.0.0", () => {
+const listener = app.listen(+(process.env.PORT ?? 4040), "0.0.0.0", () => {
     const address = listener.address();
     if(address){
         console.log(`Server started on ${
